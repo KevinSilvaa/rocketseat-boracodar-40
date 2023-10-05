@@ -536,14 +536,38 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-28{
-  margin-left: 7rem;
-  margin-right: 7rem;
+.div{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.my-40{
-  margin-top: 10rem;
+.titulo{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.texto{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(196 196 204 / var(--tw-text-opacity));
+}
+
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mb-40{
   margin-bottom: 10rem;
+}
+
+.mt-40{
+  margin-top: 10rem;
 }
 
 .flex{
@@ -576,6 +600,10 @@ video {
 
 .justify-center{
   justify-content: center;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-2{
@@ -633,6 +661,11 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.px-28{
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 .font-roboto{

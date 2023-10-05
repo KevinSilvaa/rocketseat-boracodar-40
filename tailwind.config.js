@@ -12,8 +12,10 @@ module.exports = {
       'fontFamily': {
         roboto: ['Roboto', 'sans-serif'],
       },
+      'backgroundImage': {
+        'image-bg': "url('../img/BG.png')"
+      }
     },
   },
   plugins: [],
 }
-

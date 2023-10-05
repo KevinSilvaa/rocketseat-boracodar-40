@@ -3,3 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .div {
+        @apply flex flex-col gap-2 mt-8;
+    }
+    .titulo {
+        @apply text-white font-bold text-lg;
+    }
+    .texto {
+        @apply text-cinza text-sm;
+    }
+    .bg-image {
+        @apply bg-image-bg bg-no-repeat bg-right-top;
+    }
+}
