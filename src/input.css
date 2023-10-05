@@ -15,6 +15,6 @@
         @apply text-cinza text-sm;
     }
     .bg-image {
-        @apply bg-image-bg bg-no-repeat bg-right-top;
+        @apply bg-image-bg bg-no-repeat bg-right-top h-full;
     }
 }

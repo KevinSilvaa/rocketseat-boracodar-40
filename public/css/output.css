@@ -641,6 +641,10 @@ video {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-image-bg{
+  background-image: url('../img/BG.png');
+}
+
 .from-roxo-escuro{
   --tw-gradient-from: #996DDF var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(153 109 223 / 0) var(--tw-gradient-to-position);
@@ -649,6 +653,19 @@ video {
 
 .to-roxo-claro{
   --tw-gradient-to: #C7AFFF var(--tw-gradient-to-position);
+}
+
+.bg-clip-text{
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.bg-right-top{
+  background-position: right top;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
 }
 
 .p-0{
@@ -714,9 +731,8 @@ video {
   color: rgb(196 196 204 / var(--tw-text-opacity));
 }
 
-.text-roxo-escuro{
-  --tw-text-opacity: 1;
-  color: rgb(153 109 223 / var(--tw-text-opacity));
+.text-transparent{
+  color: transparent;
 }
 
 .text-white{
